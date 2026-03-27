@@ -3,7 +3,7 @@ cask "hiive" do
   name "hiive"
   desc "A command line interface for everything Hiive related."
   homepage ""
-  version "1.8.3"
+  version "1.9.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -18,22 +18,22 @@ cask "hiive" do
   on_macos do
     on_intel do
       url "https://homebrew.hiive.network/cli/v#{version}/hiive_#{version}_darwin_amd64.tar.gz"
-      sha256 "ec9031a5d17909cfb006b4ec7233928f0d412852e9a2d605f50a7040982b34ea"
+      sha256 "646a49c213ea9939c4f18634c6ad4efdb0c65b070af6dd992bbea8a26b185e0b"
     end
     on_arm do
       url "https://homebrew.hiive.network/cli/v#{version}/hiive_#{version}_darwin_arm64.tar.gz"
-      sha256 "93b027d96127f8f8f72a3207bb467e65bb55e0cb5b77954cec8e29cdef3db2e2"
+      sha256 "b1424bae7960f3d3f26d013592d9438c493026c096c7e7fda25868b52238a478"
     end
   end
 
   on_linux do
     on_intel do
       url "https://homebrew.hiive.network/cli/v#{version}/hiive_#{version}_linux_amd64.tar.gz"
-      sha256 "a118754262698fee11d5ffe9a1e6a62e7be851b478c35e328f95419f2165e307"
+      sha256 "bf86372f65eba4582f49f141cb6346749fb6881f3dc64b3266a13900d6edd977"
     end
     on_arm do
       url "https://homebrew.hiive.network/cli/v#{version}/hiive_#{version}_linux_arm64.tar.gz"
-      sha256 "b3c7c43887e219a9559b53749fa7b4a7f8e27590c1b4ccbe44e0a9caa78eb332"
+      sha256 "93e5f2e76e2081a8be15cb23469a388f5f4694f3e03826f3dd20a5d218b76027"
     end
   end
 
