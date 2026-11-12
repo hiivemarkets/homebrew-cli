@@ -5,7 +5,7 @@ cask "ccli" do
   name "ccli"
   desc "A command line interface for everything Clarity related."
   homepage ""
-  version "1.26.0"
+  version "1.26.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -20,22 +20,22 @@ cask "ccli" do
   on_macos do
     on_intel do
       url "https://homebrew.hiive.network/cli/v#{version}/ccli_#{version}_darwin_amd64.tar.gz"
-      sha256 "67de636306193e3ab29ae3b933f59be742c8e059e2d14a94ac9b3debcbced567"
+      sha256 "b00d087e20e250559a234ec182f3accba5e9599a7f39c5a8f2e7574955313d07"
     end
     on_arm do
       url "https://homebrew.hiive.network/cli/v#{version}/ccli_#{version}_darwin_arm64.tar.gz"
-      sha256 "49fb7341c4ce478755e1ac6dab6a824f8b49f3a55631d40eee74cf8fe64a9320"
+      sha256 "adf438fb54ce7e9d7ae2fb9658f589d2673356fd57e83638146ba0abfcd4a540"
     end
   end
 
   on_linux do
     on_intel do
       url "https://homebrew.hiive.network/cli/v#{version}/ccli_#{version}_linux_amd64.tar.gz"
-      sha256 "67bc9b5d719575d3a2b012c800d747287a170eb9f828c602855fb4623b9dedad"
+      sha256 "6deb3e8cb94ce68b5f91996326e91c5c1e70d916d942fe95d1ab34de47998c63"
     end
     on_arm do
       url "https://homebrew.hiive.network/cli/v#{version}/ccli_#{version}_linux_arm64.tar.gz"
-      sha256 "c443c8508e29d954fcd6c69e9d2bed0bc1427d8709de268c38acc7db54e63692"
+      sha256 "39e5de30ea8f92b4704c90dabebcc14f6f5f2b5d4145a64f40dd232cc5ce507a"
     end
   end
 
